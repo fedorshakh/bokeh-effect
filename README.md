@@ -6,4 +6,15 @@ The purpose of the task you want to create a script that will add the bokeh effe
 photo. Bokeh is when the photo is beautifully blurred, and circles appear in place of light sources, for example.
 
 # Example:
+
+Original image:
+
 ![alt text](christmas.jpg "christmas")
+
+Convolution kernel:
+
+![alt text](triangle_19.png "convolution kernel")
+
+Processed image:
+
+![alt text](result.jpg "result")
