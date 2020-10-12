@@ -40,7 +40,7 @@ def boke(image, kernel):
     ret = layer[m1//2:n1+m1//2,m2//2:n2+m2//2]
     return ret
 
-photo = cv2.imread('./images_2/lighthouse.jpg')
+photo = cv2.imread('./images_2/lighthouse.jpg') #your path to the image
 photo = cv2.cvtColor(photo, cv2.COLOR_BGR2RGB)
 ph = np.array(photo)
 
