@@ -44,7 +44,7 @@ photo = cv2.imread('./images_2/lighthouse.jpg') #your path to the image
 photo = cv2.cvtColor(photo, cv2.COLOR_BGR2RGB)
 ph = np.array(photo)
 
-filter_ = cv2.imread('./images_2/hexagon_9.jpg',cv2.IMREAD_GRAYSCALE)
+filter_ = cv2.imread('./images_2/hexagon_9.jpg',cv2.IMREAD_GRAYSCALE) #your path to the filter
 (thresh, im_bw) = cv2.threshold(filter_, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
 thresh = 127
 im_bw = cv2.threshold(filter_, thresh, 255, cv2.THRESH_BINARY)[1]/255
